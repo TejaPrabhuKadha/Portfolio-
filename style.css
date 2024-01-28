@@ -487,10 +487,7 @@ background: radial-gradient(circle, #cbeaa7 0%, #3f518d 100%);
 
 }
 
-.div1:hover  .conk1{
-    transform: scale(1.03);
-    transition: all .5s ease;
-}
+
 .div1:hover  .conk1{
     display: block;
 }
@@ -524,10 +521,7 @@ background: radial-gradient(circle, #cbeaa7 0%, #3f518d 100%);
 } 
 
 
-.div2:hover{
-    transform: scale(1.03);
-    transition: all .5s ease;
-}
+
 
 
 
@@ -536,24 +530,7 @@ background: radial-gradient(circle, #cbeaa7 0%, #3f518d 100%);
     
 }
 
-.div7:hover{
-    transform: scale(1.03);
-    transition: all .5s ease;
-}
- 
-.div5:hover{
-    transform: scale(1.03);
-    transition: all .5s ease;
-}
-
-.div6:hover{
-    transform: scale(1.03);
-    transition: all .5s ease;
-}
- .div8:hover{
-    transform: scale(1.03);
-    transition: all .5s ease-in-out;
-}   
+   
 .div2{
     background-image: url(Pictures/Taska\ Open\ Palm.webp);
     color: #cbeaa7;
@@ -939,17 +916,7 @@ lottie-player{
         margin: 2px;
     }
     .shapes {
-        margin-top: 25px;
-        width: 44.8px;
-        height: 44.8px;
-        color: #474bff;
-        background: linear-gradient(currentColor 0 0),
-               linear-gradient(currentColor 0 0),
-               linear-gradient(currentColor 0 0),
-               linear-gradient(currentColor 0 0);
-        background-size: 23.4px 23.4px;
-        background-repeat: no-repeat;
-        animation: shapes-53h9rpmd 1.5s infinite cubic-bezier(0.3,1,0,1);
+        display:none;
      }
      
      @keyframes shapes-53h9rpmd {

@@ -1,0 +1,5 @@
+gsap.from('img', { duration: 1, x:'+100vw',ease: "circ.out"})
+gsap.from('.nav1', { duration: 1, y:'-100'})
+gsap.from('.name', { duration: 1,  x:'-100vw',ease: "circ.out"})
+gsap.from('.booex', { duration: 2, opacity:0,delay:1})
+gsap.from('.card2', { duration: 2, opacity:0,delay:1,start: "60% bottom"})
